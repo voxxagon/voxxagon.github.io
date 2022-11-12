@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 200vh;
+}
+
+.flexbox-container{
+    display:flex;       
+}
+
+.flexbox-item{
+    width: 100%;
+}
+
+/* section 1 */
+/* section 1 */
+
+#section1 {
+    background-repeat: no-repeat;
+    background-image: url("../../images/lain.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center_text{
+    font-family: Times New Roman;
+    color: antiquewhite;
+    font-size: 90px;
+}
+
+.buttons{
+    background-color: transparent;
+    border: none;
+    font-family: Times New Roman;
+    color: antiquewhite;
+    font-size: 60px;
+    border-radius: 4px;
+    transition: opacity 0.15s;
+}
+
+.buttons:hover{
+    opacity: 0.5;
+}
+
+.buttons:active{
+    opacity: 0; 
+}
+
+.side_text{
+    font-family: '游ゴシック';
+    color: antiquewhite;
+    font-size: 40px;
+    text-align: center;
+}
+
+.flexbox-item-1{
+    flex:0.3;
+}
+
+.flexbox-item-2{
+    flex:2;
+    align-items:flex-end;
+
+}
+
+.flexbox-item-3{
+    flex:0.3;
+    align-items:baseline;
+}
+
+/* section 2 */
+/* section 2 */
+
+.center_text2{
+    font-family: 'Courier New';
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+  
+#section2 {
+    background-repeat: no-repeat;
+    background-image: url("../../images/lain3.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexbox-item-4{
+    flex:0.3;
+}
+
+.flexbox-item-5{
+    flex:2;
+    align-items:center;
+}
+
+.flexbox-item-6{
+    flex:0.3;
+}
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: pre-line; /* Keeps the content on a single line */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+/*section 3*/
+/*section 3*/
+.center_text3{
+    font-family: 'Courier New';
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+  #section3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexbox-item-7{
+    flex:0.3;
+}
+
+.flexbox-item-8{
+    flex:2;
+    align-items:center;
+}
+
+.flexbox-item-9{
+    white-space: pre-line;
+    flex:0.3;
+}
