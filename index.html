@@ -1,80 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>welcome</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="script.js"></script> 
+    <title>welcome!</title>
 </head>
-
 <body>
-    <div class="flexbox-container" id="section1" >
-        
-        <div class="flexbox-container flexbox-item-1">
 
-        </div>
+    <header>
 
-        <div class="flexbox-container flexbox-item-2">
+        <!--navigation bar -->
+            <nav class="nav-bar">
+                <div class="nav-branding"><a href="index.html">Haikal_Shah</a></div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#section1">Home</a></li>
+                    <li class="nav-item"><a href="#section2">About</a></li>
+                    <li class="nav-item"><a href="#section3">Interest</a></li>  
+                </ul>
 
-            <p class = "center_text">
-            
-                kxl&nbsp;&nbsp;||
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+    </header>
+
+    <!--first page-->
+    <div class="hero" id="section1">
+        <h1>This website is fully responsive</h1>
+        <p>but please use deskstop/laptop for the best user experience<br>or just tilt your phone horizontally :)</p>
+    </div>
+
+    <div class="hero-spacer"><p>this website is coded on pure html, css, and js.<br>no addons other than google font and fontawesome.</p></div>
+
+    <!--end of first page-->
     
-                <button class="buttons" onclick="document.location = 'https://www.instagram.com/trashy.kal/'">instagram</button>
-                <button class="buttons" onclick="document.location = 'https://open.spotify.com/user/kal.shit'">spotify</button>
-                <button class="buttons" onclick="document.location = 'https://youtu.be/-pY__IYHYMc'">☆☆☆</button>
-            
-            </p>
+    <!--second page-->
+    <div id="section2">
 
-        </div>
+        <div><h1 class="header">About me</h1></div>
 
-        <div class="flexbox-container flexbox-item-3">
-            <a href="#section2">click here to go down</a>
-        </div>
-    
-    </div>
+        <div class="flex-container">
 
-    <div class="flexbox-container" id="section2">
-       
-        <div class="flexbox-container flexbox-item-4">
+            <div>
+                <div class="columnleft" style="background-color: whitesmoke;">
+                    <img src="image/img.jpg">
+                </div>
 
-        </div>
+                <div class="columnright">
+                    <p>20 years old.</p>
+                    <p>Currently studying at Multimedia University for Diploma in Information Technology.</p>
+                    <p>Passionate in programming and self-improvement.</p>
+                    <p>Volunteered in multiple diverse activities involving environmental, communicative, and motivational backgrounds.</p>
+                    <br>
+                    <p>Things I am currently doing:</p>
+                    <ul style="list-style: none;">
+                        <li> - freelance programming</li>
+                        <li> - freelance tutoring</li>
+                        <li> - volunteering for TEDxMMU</li>
+                        <li> - part of MMU's peer counselor</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="flexbox-container flexbox-item-5">
-
-            <p class = "typewriter center_text2">19 years old, currently studying in multimedia university. <br> more stuff coming soon... <br> for any collab/deal dm my insta.</p>
-
-        </div>
-
-        <div class="flexbox-container flexbox-item-6">
-
-        </div>
-
-    </div>
-
-    <div class="flexbox-container" id="section3">
-       
-        <div class="flexbox-container flexbox-item-7">
-
-        </div>
-
-        <div class="flexbox-container flexbox-item-8">
-
-            <p class = "typewriter center_text2">thanks ellie for aiding me on creating this website  (•◡•) / <3</p>
-
-        </div>
-
-        <div class="flexbox-container flexbox-item-9">
-            <p class="side_text">
-                七
-                転
-                び
-                八
-                起
-                き</p>
         </div>
 
     </div>
+    <!--second page-->
+
+    <!--third page-->
+    <div class="flex-container-2" style="background-color: black;">
+        <div class="flex-3-item">
+            <img src="image/cof.jpg">
+        </div>
+        <div class="flex-3-item">
+            <img src="image/pc.jpg">
+        </div>
+        <div class="flex-3-item">
+            <img src="image/lib.jpg">
+        </div>
+    </div>
+    <!--end of third page-->
+
+    <div id="section3">
+
+        <div><h1 class="header">Interest/hobbies</h1></div>
+
+        <div class="flex-container">
+
+            <div>
+                <div class="columnleft" style="background-color: whitesmoke;">
+                    <img src="image/cof2.jpg">
+                </div>
+
+                <div class="columnright">
+
+                    <p>PROGRAMMING</p>
+                    <ul style="list-style: none;">
+                        <li> - C++</li>
+                        <li> - C</li>
+                        <li> - HTML & CSS</li>
+                        <li> - JS</li>
+                        <li> - PHP</li>
+                        <li> - planning to learn PY soon</li>
+                    </ul>
+                    <br>
+                    <p>TECH</p>
+                    <ul style="list-style: none;">
+                        <li> - computer hardware</li>
+                        <li> - audiophile</li>
+                        <li> - virtual technology</li>
+                        <li> - planning to get into machine learning [AI]</li>
+                    </ul>
+                    <br>
+                    <p>SELF-IMPROVEMENT</p>
+                    <ul style="list-style: none;">
+                        <li> - consuming self-improvement related media</li>
+                        <li> - currently studying stoicism</li>
+                    </ul>
+                    <br>
+                    <p>MUSIC</p>
+                    <ul style="list-style: none;">
+                        <li> - hip-hop & rap</li>
+                        <li> - ambient-jazz</li>
+                        <li> - glitch</li>
+                        <li> - and more</li>
+                    </ul>
+                    <br>
+                    <p>OTAKU RELATED STUFF</p>
+                    <ul style="list-style: none;">
+                        <li> - just a form of escapism</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div>
+            <p>thank you for visiting!</p>
+            <p>for any inquires email me at:<br>email.haikalshah@gmail.com</p>
+            <p>or<br>network with me!</p>
+            <a href="https://github.com/voxxagon" style="color: white;"><i class="fa-brands fa-github"></i>voxxagon</a>
+            <a href="https://www.linkedin.com/in/haikal-shah/" style="color: white;"><i class="fa-brands fa-linkedin"></i>haikalshah</a>
+        </div>
+    </footer>
 
 </body>
 </html>
-<!--...-->
